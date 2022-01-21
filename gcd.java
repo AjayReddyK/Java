@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class gcd {
-    static int gcd(int a,int b){
+    static int gacd(int a,int b){
         int i;
         for(i=a;i>0;i--){
             if(a%i==0 && b%i==0){
@@ -36,7 +36,7 @@ public class gcd {
         a=s.nextInt();
         System.out.print("enter b:");
         b=s.nextInt();
-        result=gcd(min(a,b),max(a,b));
+        result=gacd(min(a,b),max(a,b));
         System.out.println(result);
         s.close();
     }

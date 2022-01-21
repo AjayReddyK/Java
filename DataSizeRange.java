@@ -1,4 +1,4 @@
-import java.lang.*;
+
 
 class DataSizeRange{
     public static void main(String args[]){

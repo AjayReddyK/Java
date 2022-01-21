@@ -1,4 +1,4 @@
-import java.lang.*;
+
 public class arraysort {
     public static void main(String[] args) {
         int ar[]={6,5,4,3,2,1};
